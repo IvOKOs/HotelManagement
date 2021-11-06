@@ -10,6 +10,7 @@ I have used **ASP.NET Core Razor Pages** for the web portal and **WPF Core** for
 
 ## Application Design:
 So, the applications consists of three different layers:
+
 First layer:      Database (SQL Server)
                               |
 Second layer:  Class Library (Data Access)
