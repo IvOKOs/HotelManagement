@@ -14,7 +14,10 @@ So, the applications consists of three different layers:
 ```Database (SQL Server) <-->  Class Library (Data Access) <--> User Interfaces (Web portal and Desktop portal)```
 
 • First Layer - Database. I used SQL Server for storing and managing the data. Later, I added SQLite option. The program picks which database to use based on the connection string provided. 
+
 • Second Layer - Class Library. The class library contains the data access logic. This is the “bridge” between the two user interfaces and the database. This ensures loose coupling between the UI and the database.
+
+Third Layer - The two user interfaces. 
 
 
 ## Reminder: 
