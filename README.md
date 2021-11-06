@@ -8,5 +8,14 @@ A simple hotel management application that has two portals:
 
 I have used **ASP.NET Core Razor Pages** for the web portal and **WPF Core** for the desktop portal. The two portals are connected to **SQL Server** database which stores the guest data. 
 
+## Application Design:
+So, the applications consists of three different layers:
+First layer:      Database (SQL Server)
+                              |
+Second layer:  Class Library (Data Access)
+                              |
+Third Layer:     User Interfaces (Web portal and Desktop portal) 
+
+
 ## Reminder: 
 This application is a minimum viable produvt (MVP) which means that there can/will be updates in the future! 
