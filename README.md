@@ -12,7 +12,8 @@ I have used **ASP.NET Core Razor Pages** for the web portal and **WPF Core** for
 So, the applications consists of three different layers:
 
 Database (SQL Server) <-->  Class Library (Data Access) <--> User Interfaces (Web portal and Desktop portal) 
-   First Layer                Second Layer                      Third Layer
+
+• First Layer - Database. I used SQL Server for storing and managing the data. Later, I added SQLite option. The program picks which database to use based on the connection string provided.
 
 
 ## Reminder: 
